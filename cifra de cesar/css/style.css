@@ -1,0 +1,160 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+
+  
+  background-size: auto 120%;
+  background-attachment: fixed, scroll;
+  
+}
+.main{
+  width: 45%;
+  background-color: black;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 25px;
+  color: white;
+  border: solid rgb(200, 226, 49);
+  margin-top: 40px;
+  opacity: 89%;
+}
+h1 {
+  letter-spacing: .4rem;
+  color: rgb(200, 226, 49);
+  margin: 10px;
+  text-align: center;
+  font-family: 'Legion','Multivac','sans-serif';
+}
+fieldset {
+  border: none;
+}
+select {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 15px;
+}
+textarea {
+  width: 100%;
+  height: 70px;
+  margin: 10px ;
+  padding: 12px;
+  color: rgb(200, 226, 49);
+  font-weight: bolder;
+  background-color: black;
+  font-size: 15px;
+  border: rgb(200, 226, 49) solid 2px;
+}
+textarea::selection{
+  background-color: white;
+  color: black;
+}
+.keyDiv {
+  background-color: black;
+  float: right;
+  width: 55%;
+  display: none;
+  text-align: center;
+  padding: 15px;
+}
+.keyDiv input {
+  text-align: center;
+  align-items: center;
+  width: 20%;
+  font-size: 15px;
+  text-align: center;
+  background-color: black;
+  color: rgb(200, 226, 49);
+  border: rgb(200, 226, 49) 2px;
+  border-radius: 15px;
+}
+#codigo{
+  background-color: black;
+  color: rgb(200, 226, 49);
+  border: rgb(200, 226, 49) solid 2px;
+  width: 44%;
+  text-align: center;
+  border-radius: 15px;
+}
+.codeRadio {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 12px 0;
+}
+.divR {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#btnResult {
+  font-size: 17px;
+  cursor: pointer;
+  background-color: rgb(200, 226, 49);
+  color: black;
+  margin-left: auto;
+  margin-right: auto;
+  display: block
+ 
+  
+}
+footer{
+  padding: 20px;
+  text-align: center;
+  margin-top: 20px;
+  color: rgb(240, 9, 9);
+}
+@media only screen and (min-width: 360px) and (max-width: 960px){
+  h1 {
+    font-size: 22px;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+#btnResult {
+    border: none;
+  }
+  .codeRadio {
+    display: block;
+  }
+  .main{
+    width: 90%;
+  }
+  .keyDiv{
+    width: 100%;
+  }
+  #codigo{
+    width: 100%;
+  }
+  .keyDiv Input{
+    width: 20%;
+  }
+}
+@media only screen and (min-width: 280px) and (max-width: 320px){
+  h1 {
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+#btnResult {
+    border: none;
+  }
+  .codeRadio {
+    display: block;
+  }
+  .main{
+    width: 90%;
+  }
+  .keyDiv{
+    width: 100%;
+  }
+  #codigo{
+    width: 100%;
+  }
+  .keyDiv Input{
+    width: 20%;
+  }
+}
